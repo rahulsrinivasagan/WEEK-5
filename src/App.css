@@ -19,7 +19,7 @@
   padding: 40px;
   border-radius: 16px;
 
-  background: url("/icon.png")
+  background: url("public/icon.png")
     no-repeat center/cover;
 
   color: white;
@@ -109,7 +109,7 @@ body {
   background: var(--bg);
   color: var(--text);
 
-  background: url("C:\Users\srahu\Desktop\Working Files\WEBZENITH_BOOTCAMP\WEEK-5\weather-app\public\body2.jpg")
+  background: url("public/body2.jpg")
     no-repeat center center fixed;
 
   background-size: cover;
