@@ -17,7 +17,7 @@ const customIcon = L.icon({
   iconSize: [30, 30],
 });
 
-const API_KEY = "0f36607f5e5172322e9d86b94ca74eb3"; // 🔑 replace
+const API_KEY = "0f36607f5e5172322e9d86b94ca74eb3"; 
 
 function App() {
   const [city, setCity] = useState("");
