@@ -4,9 +4,9 @@ const Search = ({ fetchWeather }) => {
   const [city, setCity] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // 🔥 prevents page reload
+    e.preventDefault(); 
 
-    if (!city.trim()) return; // avoid empty input
+    if (!city.trim()) return; 
 
     fetchWeather(city); // call function
     setCity(""); // clear input
@@ -21,7 +21,7 @@ const Search = ({ fetchWeather }) => {
         onChange={(e) => setCity(e.target.value)}
       />
 
-      <button type="submit">Search</button> {/* 🔥 important */}
+      <button type="submit">Search</button> {/* submit button */}
     </form>
   );
 };
