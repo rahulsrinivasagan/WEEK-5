@@ -19,7 +19,7 @@
   padding: 40px;
   border-radius: 16px;
 
-  background: url("\icon.png")
+  background: url("/icon.png")
     no-repeat center/cover;
 
   color: white;
